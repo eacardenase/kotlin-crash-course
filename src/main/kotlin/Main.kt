@@ -1,3 +1,7 @@
 fun main() {
-    println("Hello Kotlin")
+    var x: String = "Hello world"
+
+    x += " from Kotlin!"
+
+    println(x)
 }
