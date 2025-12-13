@@ -12,4 +12,10 @@ fun main() {
     println(x * y)
     println(x / y)
     println(x % y)
+    println(x == y)
+    println(x != y)
+    println(x > y)
+    println(x < y)
+    println(x >= y)
+    println(x <= y)
 }
