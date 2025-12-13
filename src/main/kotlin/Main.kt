@@ -1,7 +1,15 @@
 fun main() {
-    var x: String = "Hello world"
+    var x = -18
+    val y = 100
 
-    x += " from Kotlin!"
+    x += 1
+    x--
+    --x
+    ++x
 
-    println(x)
+    println(x + y)
+    println(x - y)
+    println(x * y)
+    println(x / y)
+    println(x % y)
 }
