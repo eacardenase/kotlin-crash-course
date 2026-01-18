@@ -1,24 +1,12 @@
 fun main() {
-    var x = -18
-    val y = 100
+    var x = 17
+    val y = 10
 
-    x += 1
-    x--
-    --x
-    ++x
+    val areBothNumbersEven = x % 2 == 0 && y % 2 == 0
+    val isOneNumberEven = x % 2 == 0 || y % 2 == 0
+    var shortcircuitExample = x % 2 == 0 || y % 2 == 0 && x + y == 30
 
-    println(x + y)
-    println(x - y)
-    println(x * y)
-    println(x / y)
-    println(x % y)
-    println(x == y)
-    println(x != y)
-    println(x > y)
-    println(x < y)
-    println(x >= y)
-    println(x <= y)
-
-    println("$x + $y = ${x + y}")
-    println("$x == $y = ${x == y}")
+    println("areBothNumbersEven: $areBothNumbersEven")
+    println("isOneNumberEven: $isOneNumberEven")
+    println("shortcircuitExample: $shortcircuitExample")
 }
